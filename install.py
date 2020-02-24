@@ -1,0 +1,26 @@
+import os
+import sys
+import time
+
+print("Thank you for taking intrest in DorkDox, made by Symphanny.")
+print("Installing dependencies")
+os.system("apt-get upgrade -y")
+print("Upgraded System")
+os.system("apt-get update -y")
+print("Updated System")
+os.system("apt-get update --fix-missing -y")
+print("Fixed Possible Missing/Misconfigured Packages")
+os.system('sudo apt-get install python3-pip -y')
+print("Installed Python3-Pip")
+os.system('sudo apt-get install curl -y')
+print("Installed Curl")
+os.system('sudo apt-get install figlet -y ')
+print("Installed Figlet")
+os.system('sudo apt-get install toilet -y')
+print("Installed Toilet")
+os.system("sudo apt-get install cmatrix -y")
+print("Installed Cmatrix")
+os.system("pip3 install -r requirements.txt")
+print("Installed pip Requirements!")
+os.system('clear')
+print("You can now run python3 dorkdox.py to start the program")
