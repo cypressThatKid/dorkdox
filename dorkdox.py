@@ -47,8 +47,10 @@ if cmd == '1':
   os.system('clear')
   google_search = GoogleSearch("intext:"+name+"")
   google_search.start_search(max_page=1) # prints first page of google resulrs
-  print(google_search.search_result) # will print the url as list of string
-  print(google_search.search_result) # the result will be added to current result
+  symphanny = google_search.start_search
+  for x in google_search.search_result: 
+    print(x)
+  print()
   print("If you want to follow any of these URLs, simply paste them into your browser!")
   print()
   print("Have a good day!")
@@ -66,10 +68,12 @@ if cmd == '2':
   print("Results For "+email+"")
   time.sleep(1)
   os.system('clear')
-  google_search = GoogleSearch("intext:"+email+"")
+  google_search = GoogleSearch("allintext:"+email+"")
   google_search.start_search(max_page=1) # prints first page of google resulrs
-  print(google_search.search_result) # will print the url as list of string
-  print(google_search.search_result) # the result will be added to current result
+  symphanny = google_search.start_search
+  for x in google_search.search_result: 
+    print(x)
+  print()
   print("If you want to follow any of these URLs, simply paste them into your browser!")
   print()
   print("Have a good day!")
@@ -85,10 +89,12 @@ if cmd == '3':
   print("Results For "+email+"")
   time.sleep(1)
   os.system('clear')
-  google_search = GoogleSearch("intext:"+email+"")
+  google_search = GoogleSearch("allintext:"+email+"")
   google_search.start_search(max_page=1) # prints first page of google resulrs
-  print(google_search.search_result) # will print the url as list of string
-  print(google_search.search_result) # the result will be added to current result
+  symphanny = google_search.start_search
+  for x in google_search.search_result: 
+    print(x)
+  print()
   print("If you want to follow any of these URLs, simply paste them into your browser!")
   print()
   print("Have a good day!")
@@ -104,10 +110,12 @@ if cmd == '4':
   print("Results For "+nick+"")
   time.sleep(1)
   os.system('clear')
-  google_search = GoogleSearch("intext:"+nick+"")
+  google_search = GoogleSearch("allintext:"+nick+"")
   google_search.start_search(max_page=1) # prints first page of google resulrs
-  print(google_search.search_result) # will print the url as list of string
-  print(google_search.search_result) # the result will be added to current result
+  symphanny = google_search.start_search
+  for x in google_search.search_result: 
+    print(x)
+  print()
   print("If you want to follow any of these URLs, simply paste them into your browser!")
   print()
   print("Have a good day!")
@@ -123,10 +131,12 @@ if cmd == '5':
   print("Results For "+user+"")
   time.sleep(1)
   os.system('clear')
-  google_search = GoogleSearch("intext:"+user+"")
+  google_search = GoogleSearch("allintext:"+user+"")
   google_search.start_search(max_page=1) # prints first page of google resulrs
-  print(google_search.search_result) # will print the url as list of string
-  print(google_search.search_result) # the result will be added to current result
+  symphanny = google_search.start_search
+  for x in google_search.search_result: 
+    print(x)
+  print()
   print("If you want to follow any of these URLs, simply paste them into your browser!")
   print()
   print("Have a good day!")
@@ -155,6 +165,6 @@ if cmd == '6':
   print(Fore.WHITE)
 
 if cmd == '7':
-  print(Fore.GREEN + "See you later!")
+  print(Fore.GREEN + "We are sad to see you go, but come back?")
   print(Fore.WHITE)
   sys.exit()  
