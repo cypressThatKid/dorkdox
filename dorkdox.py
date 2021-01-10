@@ -1,5 +1,5 @@
 #dorkdox v 0.0.1
-#Coded by qolhf
+#Coded by cypress
 #run python3 install.py before running this
 #read terms.txt
 
@@ -149,7 +149,7 @@ if cmd == '6':
   creditsbanner()
   print()
   print()
-  print(Fore.RED + "Menu coded by qolhf")
+  print(Fore.RED + "Menu coded by me")
   time.sleep(1)
   print()
   print()
